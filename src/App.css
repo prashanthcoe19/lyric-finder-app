@@ -1,0 +1,100 @@
+/* @import url('https://fonts.googleapis.com/css?family=Roboto'); */
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+  background: #1a1110;
+  color: #a9a9ad;
+  padding: 20px;
+  min-height: 40px;
+  text-decoration: none;
+}
+
+.navbar{
+  text-decoration: none;
+}
+
+.footer{
+  background: #1a1110;
+  color: #a9a9ad;
+  padding: 20px;
+  min-height: 40px;
+  text-align: center;
+}
+
+.form{
+  display: block;
+  height: 100%;
+  padding: 15px 15px;
+}
+.form input{
+  display: block;
+  margin: auto;
+  width: 400px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px dotted;
+  padding: 7px;
+}
+
+::placeholder{
+  font-family: FontAwesome;
+  font-size: 20px;
+  font-weight: normal;
+  position: relative;
+  left: 8px;
+  padding: 7px;
+}
+
+.grid-container{
+  display: grid;
+  /* grid-auto-rows: 150px; */
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+  padding: 10px;
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color: #1a1110;
+  color: #a9a9ad;
+  transition: 0.3s;
+  width: 45%;
+  justify-content: center;
+  margin: auto;
+  font-size: 12px;
+}
+
+.container{
+  padding: 2px 16px;
+}
+
+button{
+  background-color: #1a1110;
+  border: none;
+  width: 100%;
+  color:#a9a9ad;
+}
+button:hover{
+  background-color: #a9a9ad;
+  color: #000000;
+}
+
+h2{
+  text-align: center;
+}
+h1,h3,h4{
+  text-align: center;
+  text-decoration: none;
+}
+
+.alert-light{
+  background: #fff;
+  color: #333;
+  border: #ccc solid 1px;
+}
+
